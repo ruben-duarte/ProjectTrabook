@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FEFCFB;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
