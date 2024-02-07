@@ -1,15 +1,18 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 body{
     background-color: #FEFCFB;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .wrapper {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 45px auto;
 }
 
 /* navbar */
@@ -19,3 +22,23 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo{
+    width: 130px;
+    height: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
+
