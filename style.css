@@ -11,8 +11,8 @@ body{
 }
 
 .wrapper {
-    max-width: 1200px;
-    margin: 45px auto;
+    max-width: 80%;
+    margin: 25px 140px;
 }
 
 /* navbar */
@@ -28,6 +28,11 @@ header {
     height: 24px;
 }
 
+.nav{
+    margin-left: 236px;
+    margin-right: 150px;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
@@ -39,6 +44,32 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    font-weight: 400;
 }
 
+.logger {
+    display: flex;
+    gap: 56px;
+}
+
+.login {
+    color: #FD8D3A;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    background-color: #FEFCFB;
+    cursor: pointer;
+}
+
+.signup{
+    background-color: #FD8D3A;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
 
