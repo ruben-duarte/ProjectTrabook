@@ -5,6 +5,7 @@
 
 body{
     background-color: #FEFCFB;
+    font-family: 'Poppins', sans-serif;
 }
 
 .wrapper {
@@ -19,3 +20,100 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+/* end navbar */
+
+
+/* Ventajas  */
+
+/* End Ventajas */
+
+/* Discounts */
+.discounts-elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEFCFB;
+}
+
+.discounts-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 0.5rem;
+    box-shadow: -7px 11px 43px -9px rgba(0,0,0,0.1);
+}
+
+.info-disc{
+    display: flex;
+    flex-direction: column;
+}
+
+.btns-disc{
+    background-color: orangered;
+}
+
+.city-container, .country-container{
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.country-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name-place{
+    margin-left: 0.5rem;
+} 
+
+.city-container p {
+    color: #222222;
+    font-weight: 500;
+}
+
+.icon-gps{
+    margin-right: 4px;
+}
+
+.num-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.final-price{
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 8px;
+    color: #FA7436;
+    background-color: #FFE7DB;
+}
+
+.regular-price{
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.score-disc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.num-disc{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* End Discounts */
