@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -21,6 +24,10 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
 
 .logo{
     width: 130px;
@@ -168,3 +175,129 @@ nav ul li a {
 
 
 /* End Discounts */
+
+.latest-blogs {
+    margin-top: 20px;
+    max-width: 1200px;
+    height: 805px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-lb{
+    text-align: center;
+    font-size: 48px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 54px;
+    
+  }
+  
+  .latest-blog {
+    color: #FA7436;
+    
+  }
+  
+  .blog-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blog {
+    flex: 1 0 10%; /*Para que cada blog ocupe el 25% del ancho */
+    margin: 10px;
+    text-align: left;
+    
+  }
+  
+  .blog img {
+    width: 270px;
+    height: 270px;
+    border-radius: 8px;
+    /* height: auto; */
+  }
+
+  .blog h3,.date {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .blog h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    
+  }
+  
+  .date {
+    margin-top: 5px;
+    color: #888;
+  }
+  
+  .carousel-indicators {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #E5E5E5;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .active{
+    background-color:  #FA7436;
+  }
+
+  .subscription{
+    max-width: 1200px;
+    height: 416px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #FA7436;
+    border-radius: 16px;
+
+  }
+
+  .title-subscription {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 54px;
+    color: #fff;
+  }
+
+  .form-subscription{
+    margin: auto;
+    width: 647px;
+    
+  }
+  
+  .input-padding{
+     background-color: #fff;
+     padding: 5px;
+     display: flex;
+     border-radius: 10px;
+  }
+  .form-subscription input {
+    width:500px;
+    border: none;
+    border-radius: 10px;
+  }
+  .form-subscription button{
+    width: 132px;
+    height: 50px;
+    background-color: #FA7436;
+    border-radius: 8px;
+    border: none;
+  }
