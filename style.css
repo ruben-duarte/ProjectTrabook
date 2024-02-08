@@ -26,7 +26,12 @@ header {
 .latest-blogs {
     margin-top: 20px;
     max-width: 1200px;
+    height: 805px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .title-lb{
     text-align: center;
@@ -95,4 +100,51 @@ header {
   
   .active{
     background-color:  #FA7436;
+  }
+
+  .subscription{
+    max-width: 1200px;
+    height: 416px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #FA7436;
+    border-radius: 16px;
+
+  }
+
+  .title-subscription {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Volkhov", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 54px;
+    color: #fff;
+  }
+
+  .form-subscription{
+    margin: auto;
+    width: 647px;
+    
+  }
+  
+  .input-padding{
+     background-color: #fff;
+     padding: 5px;
+     display: flex;
+     border-radius: 10px;
+  }
+  .form-subscription input {
+    width:500px;
+    border: none;
+    border-radius: 10px;
+  }
+  .form-subscription button{
+    width: 132px;
+    height: 50px;
+    background-color: #FA7436;
+    border-radius: 8px;
+    border: none;
   }
