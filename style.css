@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body{
     background-color: #FEFCFB;
     font-family: 'Poppins', sans-serif;
@@ -43,7 +47,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
@@ -55,7 +59,7 @@ nav ul li a {
 .login {
     color: #FD8D3A;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     border: none;
     background-color: #FEFCFB;
     cursor: pointer;
@@ -65,11 +69,57 @@ nav ul li a {
     background-color: #FD8D3A;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     cursor: pointer;
     width: 160px;
     height: 50px;
     border: none;
     border-radius: 5px;
 }
+
+/* hero*/
+main {
+   display: flex;
+
+}
+
+.left-col {
+   padding-top: 135px;
+   padding-right: 96px;
+}
+
+.left-col h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    font-style: "Volkhov", "sans-serif";
+    width: 521px;
+}
+
+.left-col h1 span {
+    color: #FA7436;
+}
+
+.left-col p {
+    font-size: 2rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 40px;
+    width: 407px;
+}
+.discover {
+    background-color: #FFFFFF;
+    color: #FA7436;
+    border: 1px solid #FA7436;
+    width: 178px;
+    height: 60px;
+    border-radius: 5px;
+    font-size:  18px;
+}
+
+.card1 {
+    margin-top: 30px;
+    margin-left: 289px;
+}
+
+
 
