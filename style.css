@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 body{
     background-color: #FEFCFB;
     font-family: 'Poppins', sans-serif;
@@ -47,7 +43,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -59,7 +55,7 @@ nav ul li a {
 .login {
     color: #FD8D3A;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 16px;
     border: none;
     background-color: #FEFCFB;
     cursor: pointer;
@@ -69,7 +65,7 @@ nav ul li a {
     background-color: #FD8D3A;
     color: #FFFFFF;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 16px;
     cursor: pointer;
     width: 160px;
     height: 50px;
@@ -89,7 +85,7 @@ main {
 }
 
 .left-col h1 {
-    font-size: 6.4rem;
+    font-size: 64px;
     font-weight: 700;
     font-style: "Volkhov", "sans-serif";
     width: 521px;
@@ -100,7 +96,7 @@ main {
 }
 
 .left-col p {
-    font-size: 2rem;
+    font-size: 20px;
     font-family: "Poppins";
     font-weight: 400;
     line-height: 40px;
@@ -137,22 +133,67 @@ main {
 
 .planes {
     position: absolute;
-    top: 100px;
-    left: 700px;
+    top: 70px;
+    left: 730px;
+    width: 570px;
 }
 
 form {
     display: flex;
-    justify-content: center;
-  
+    justify-content: space-around;
+    
+}
+
+.container-option{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.explore {
+    padding: 50px;
 }
 
 .choose-travel {
+    margin-top: 65px;
+    margin-left: 70px;
     width: 841px;
     height: 124px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 }
 
+#locations, #date, #guest {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    font-weight: bold;
+}
 
+label {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #666666;
+    width: 126px;
+}
 
+/*button*/
+.explore input{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 21px;
+    background-color: #FD8D3A;
+    border-radius: 5px;
+    width: 165px;
+    border: none;
+}
+
+select {
+    background-color: #FFFFFF;
+    border: none;
+}
 
 
