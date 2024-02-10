@@ -49,7 +49,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -78,6 +78,130 @@ nav ul li a {
     border: none;
     border-radius: 5px;
 }
+
+/* hero*/
+main {
+   display: flex;
+
+}
+
+.left-col {
+   padding-top: 135px;
+   padding-right: 96px;
+}
+
+.left-col h1 {
+    font-size: 64px;
+    font-weight: 700;
+    font-style: "Volkhov", "sans-serif";
+    width: 521px;
+}
+
+.left-col h1 span {
+    color: #FA7436;
+}
+
+.left-col p {
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    line-height: 40px;
+    width: 407px;
+}
+.discover {
+    background-color: #FFFFFF;
+    color: #FA7436;
+    border: 1px solid #FA7436;
+    width: 178px;
+    height: 60px;
+    border-radius: 5px;
+    font-size:  18px;
+    cursor: pointer;
+}
+
+.card1 {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}
+
+.card2 {
+    position: absolute;
+    top: 300px;
+    left: 1100px;
+}
+
+.card3 {
+    position: absolute;
+    top: 400px;
+    left: 740px;
+}
+
+.planes {
+    position: absolute;
+    top: 70px;
+    left: 730px;
+    width: 570px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-option{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+.explore {
+    padding: 50px;
+}
+
+.choose-travel {
+    margin-top: 65px;
+    margin-left: 70px;
+    width: 841px;
+    height: 124px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#locations, #date, #guest {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #666666;
+    width: 126px;
+}
+
+/*button*/
+.explore input{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 21px;
+    background-color: #FD8D3A;
+    border-radius: 5px;
+    width: 165px;
+    border: none;
+}
+
+select {
+    background-color: #FFFFFF;
+    border: none;
+}
+
 
 /* end navbar */
 
