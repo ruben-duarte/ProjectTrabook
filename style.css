@@ -23,6 +23,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: auto;
 }
 
 
@@ -82,7 +84,8 @@ nav ul li a {
 /* hero*/
 main {
    display: flex;
-
+  max-width: 1200px;
+  margin: auto;
 }
 
 .left-col {
@@ -110,6 +113,10 @@ main {
     line-height: 40px;
     width: 407px;
     margin-top: 20px;
+}
+
+.right-col img{
+  width: 600px;
 }
 .discover {
     background-color: #FFFFFF;
@@ -165,8 +172,10 @@ form {
 }
 
 .choose-travel {
-    margin-top: 65px;
-    margin-left: 70px;
+  max-width: 1200px;
+    margin: auto;
+    /* margin-top: 65px;
+    margin-left: 70px; */
     width: 841px;
     height: 124px;
     background-color: #FFFFFF;
