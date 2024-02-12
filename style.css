@@ -227,6 +227,8 @@ select {
 header {
   display: flex;
   justify-content: center;
+  margin-top: 45px;
+  
 }
 
 header h1 {
@@ -252,7 +254,10 @@ header p {
 
 header .plane-icon {
   margin-left: 60px;
+  position: absolute;
+  right: 210px;
 }
+
 
 .cards {
   margin-top: 64px;
