@@ -1,5 +1,12 @@
 # Trakbook website pure html and css
+# Group 04 collaborators:
+- Raquel Sofia Neira
+- Edwin Rojas
+- Ruben Duarte
+
+  
 ### Project developed within the Peaku Bootcamp 2024 - Cohort11
+
 
 - 💻 Experience in pure Html5 and CSS3
 
