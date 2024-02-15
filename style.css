@@ -678,6 +678,10 @@ header .plane-icon {
   margin-bottom: 24px;
 }
 
+.city-container {
+  position: relative;
+}
+
 .city-price h4 {
   font-size: 24px;
   font-weight: 600;
@@ -703,6 +707,7 @@ header .plane-icon {
 
 .bottom-card {
   display: flex;
+
 }
 
 .card-vacation{
@@ -729,8 +734,24 @@ header .plane-icon {
   margin-left: 240px;
 }
 
-.city-vacation img .vector-vacational{
-  width: 18px;
+#arrow-vector-1, #arrow-vector-2, #arrow-vector-3{
+  width: 18.79px;
   height: 16px;
-
+  position: absolute;
+  margin-top: -85px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
+
+#star-1, #star-2, #star-3 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin-top: -85px;
+  margin-left: 290px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+
