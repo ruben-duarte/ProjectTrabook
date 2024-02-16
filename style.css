@@ -310,30 +310,40 @@ header .plane-icon {
     margin-bottom: 30px;
 }
 .paragraph-disc{
-  margin-bottom: 30px;
-  text-align: center;
+    margin-bottom: 30px;
+    text-align: center;
 }
+
 .discounts-elements{
   max-width: 1200px;
   margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #FEFCFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FEFCFB;
 }
 
 .discounts-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .card-discount {
-  width: 270px;
-  height:426px;
-    /* padding: 0.5rem; */
+    width: 270px;
+    height:426px;
     margin-right: 10px;
-    box-shadow: -7px 11px 43px -9px rgba(0,0,0,0.1);
+    border: 2px #f0eeec solid;
+    border-radius: 0.5rem;
+}
+
+.card-discount:hover{
+  box-shadow: 0px 0px 55px 24px #FEEFE8;
+}
+
+.paragraph-disc p{
+    color: gray;
 }
 
 .info-disc{
@@ -342,7 +352,34 @@ header .plane-icon {
 }
 
 .btns-disc{
-    background-color: orangered;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;  
+  margin-top: 2rem;
+}
+
+.btn-disc-select{
+  display: flex;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: #FA7436;
+}
+
+.btn-disc-noselect img{
+    width: 2rem; 
+}
+
+.btn-disc-select{
+  width: 2rem;
+}
+
+.btn-disc-noselect{
+  display: flex;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: #d5d2d1;
 }
 
 .city-container, .country-container{
